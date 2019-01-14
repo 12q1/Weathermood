@@ -42,7 +42,7 @@ getWeather = cityId => {
       document.getElementById("avgTemp").innerHTML =
         "Average temperature: " + avgTemp.toFixed(1) + "°C"
       document.getElementById("icon").src = 
-        "http://openweathermap.org/img/w/" + data.list[0].weather["0"].icon + ".png";
+        "https://openweathermap.org/img/w/" + data.list[0].weather["0"].icon + ".png";
       console.log("got weather for " + data.city.name);
     });
 };
