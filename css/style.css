@@ -1,0 +1,72 @@
+body {
+  background-color: #086500;
+}
+
+button {
+  background-color: #0b7a01;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#meter {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(270deg);
+  width: 150px;
+  height: 30px;
+  display: block;
+  margin-top: 70px;
+}
+
+meter::-webkit-meter-bar {
+  background: #EEE;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 3px;
+}
+
+meter::-webkit-meter-optimum-value,
+meter::-webkit-meter-suboptimum-value,
+meter::-webkit-meter-even-less-good-value {
+  border-radius: 3px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #FFDB1A;
+}
+
+meter::-webkit-meter-suboptimum-value {
+  background: #86CC00;
+}
+
+meter::-webkit-meter-even-less-good-value {
+  background: #CC4600;
+}
+
+#currCity {
+  margin-top: -85px;
+  margin-left: 150px;
+  color: white;
+}
+
+#condition {
+  margin-left: 150px;
+  margin-top: -15px;
+  color: white;
+}
+
+#avgTemp {
+  margin-left: 150px;
+  margin-top: -15px;
+  color: white;
+}
+
+#icon {
+  margin-left: 150px;
+  margin-top: -10px;
+}
